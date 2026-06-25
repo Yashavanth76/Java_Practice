@@ -1,22 +1,24 @@
 package com.practice.DSA.pattern_program;
 
-public class Pattern2 {
+public class Pattern3 {
     public static void main(String[] args) {
         int n = 5;
 
         for(int i = 0; i <= n; i++){
-            for (int j = 0; j <= n; j++){
-                System.out.print(i);
+            for (int j = 1; j <= n; j++){
+                System.out.print(j);
             }
             System.out.println();
         }
     }
 }
 
+// i for line and j is for print
+
 // Output
-//  000000
-//  111111
-//  222222
-//  333333
-//  444444
-//  555555
+//  12345
+//  12345
+//  12345
+//  12345
+//  12345
+//  12345
